@@ -1,3 +1,5 @@
+package mock;
+
 public class Division {
     public Integer divid(Integer a, Integer b) {
         if (b == 0) {
@@ -9,5 +11,9 @@ public class Division {
         } else {
             return a / b;
         }
+    }
+
+    public Integer divid2(Integer a, Integer b, Integer c) {
+        return divid(a, b) /c;
     }
 }
