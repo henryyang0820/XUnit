@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="366f3ec7-dce9-4dd5-aa8d-6b126a242175" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FastGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SlowGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestGroupsSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirldren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirldren2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/TestXueQiuLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/XueQiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/search/TestSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestJUnit4Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirld.java" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -19,7 +35,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Sle9k78rOPDuSs4kGggqVB2nPp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -32,6 +63,64 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.TestGroups.testSlowDemo3">
+    <configuration name="TestGroupsSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGroupsSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGroups.testSlowDemo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGroups" />
+      <option name="METHOD_NAME" value="testSlowDemo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGroups.testSlowDemo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGroups" />
+      <option name="METHOD_NAME" value="testSlowDemo3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJUnit4DemoChirldren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJUnit4DemoChirldren" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestGroups.testSlowDemo3" />
+        <item itemvalue="JUnit.TestGroups.testSlowDemo2" />
+        <item itemvalue="JUnit.TestGroupsSuite" />
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.TestJUnit4DemoChirldren" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,8 +132,33 @@
       <option name="project" value="LOCAL" />
       <updated>1572099487315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add beforeclass">
+      <created>1572099506765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572099506765</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="366f3ec7-dce9-4dd5-aa8d-6b126a242175" name="Default Changelist" comment="" />
+      <created>1572142460222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572142460222</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add beforeclass" />
