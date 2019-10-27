@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="366f3ec7-dce9-4dd5-aa8d-6b126a242175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SlowGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestGroupsSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirldren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirldren2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/TestXueQiuLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/XueQiu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/search/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiuqiu/web/search/TestSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivisionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestJUnit4Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirld.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +13,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="254" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -46,7 +39,20 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -63,7 +69,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGroups.testSlowDemo3">
+  <component name="RunManager" selected="JUnit.DivisionTest">
+    <configuration name="DivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DivisionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGroupsSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XUnit" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,19 +108,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJUnit4DemoChirldren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XUnit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestJUnit4DemoChirldren" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XUnit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSuite" />
+      <option name="MAIN_CLASS_NAME" value="TestParam" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivisionTest" />
+        <item itemvalue="JUnit.TestParam" />
         <item itemvalue="JUnit.TestGroups.testSlowDemo3" />
         <item itemvalue="JUnit.TestGroups.testSlowDemo2" />
         <item itemvalue="JUnit.TestGroupsSuite" />
-        <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="JUnit.TestJUnit4DemoChirldren" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add beforeclass" />
     <option name="LAST_COMMIT_MESSAGE" value="add beforeclass" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/XUnit$DivisionTest.ic" NAME="DivisionTest Coverage Results" MODIFIED="1572158221634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
