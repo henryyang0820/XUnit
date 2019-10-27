@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="366f3ec7-dce9-4dd5-aa8d-6b126a242175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mock/Division2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mock/MockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mock/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DivisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/DivisionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FastGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/FastGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SlowGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/SlowGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGroupsSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestGroupsSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestJUnit4Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirldren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestJUnit4DemoChirldren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestJUnit4DemoChirldren2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestJUnit4DemoChirldren2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mock/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mock/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mock/DivisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/DivisionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="275" />
+    <option name="myElementSize" value="287" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,6 +60,7 @@
       <recent name="mock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mock" />
       <recent name="" />
     </key>
   </component>
@@ -83,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DivisionTest">
+  <component name="RunManager" selected="JUnit.DivisionTest.divid2">
     <configuration name="DivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XUnit" />
       <option name="PACKAGE_NAME" value="mock" />
@@ -93,51 +86,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivisionTest.divid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XUnit" />
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.LoginTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGroups.testSlowDemo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XUnit" />
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.TestGroups" />
-      <option name="METHOD_NAME" value="testSlowDemo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.DivisionTest" />
+      <option name="METHOD_NAME" value="divid2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGroups.testSlowDemo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XUnit" />
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.TestGroups" />
-      <option name="METHOD_NAME" value="testSlowDemo3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.MockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockTest.testMockDemo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.MockTest" />
+      <option name="METHOD_NAME" value="testMockDemo2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockTest.testSpy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XUnit" />
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.TestParam" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.MockTest" />
+      <option name="METHOD_NAME" value="testSpy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivisionTest.divid2" />
+        <item itemvalue="JUnit.MockTest.testSpy" />
+        <item itemvalue="JUnit.MockTest.testMockDemo2" />
+        <item itemvalue="JUnit.MockTest" />
         <item itemvalue="JUnit.DivisionTest" />
-        <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="JUnit.TestParam" />
-        <item itemvalue="JUnit.TestGroups.testSlowDemo3" />
-        <item itemvalue="JUnit.TestGroups.testSlowDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572158288779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="目录重构">
+      <created>1572163410952</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572163410952</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,10 +215,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add beforeclass" />
     <MESSAGE value="TDD an IDea Coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD an IDea Coverage" />
+    <MESSAGE value="目录重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="目录重构" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/XUnit$DivisionTest.ic" NAME="DivisionTest Coverage Results" MODIFIED="1572158221634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/XUnit$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1572161607844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/XUnit$DivisionTest_divid2.ic" NAME="DivisionTest.divid2 Coverage Results" MODIFIED="1572165552647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mock.*</FILTER>
+    </SUITE>
   </component>
 </project>
