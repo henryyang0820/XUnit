@@ -22,8 +22,8 @@ public class App extends BasePage{
 
         System.out.println(driver.manage().getCookies());
 
-        driver.manage().addCookie(new Cookie("wwrtx.refid","4290758511496190"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid","8DFD-5olxbVx4RGaioEu3W-p8WyQERnfCmGdF13D0gysHbBdW9ADFaiFHqgDY0vf"));
+        driver.manage().addCookie(new Cookie("wwrtx.refid","42351602663264511"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid","8DFD-5olxbVx4RGaioEu3QDYSeFRYj-sSDJtIMnfujqu-vgIfBhM5cNjXE_sCGLU"));
         driver.navigate().refresh();
         return this;
     }
