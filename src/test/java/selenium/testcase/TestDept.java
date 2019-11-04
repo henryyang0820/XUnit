@@ -1,7 +1,7 @@
 package selenium.testcase;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
-import org.junit.Ignore;
 import org.junit.Test;
 import selenium.pages.App;
 
@@ -34,5 +34,10 @@ public class TestDept {
     public void updateName(){
         String name="天猫科技"+System.currentTimeMillis();
         app.toContact().updateDept(name);
+    }
+
+    @AfterClass
+    public static void afterAll() throws InterruptedException {
+        app.quit();
     }
 }

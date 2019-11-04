@@ -1,5 +1,6 @@
 package selenium.testcase;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import selenium.pages.App;
@@ -30,5 +31,9 @@ public class TestGroupMessage {
         assertThat(sendedMsg, hasItem(title));
 
 
+    }
+    @AfterClass
+    public static void afterAll() throws InterruptedException {
+        app.quit();
     }
 }

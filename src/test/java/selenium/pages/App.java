@@ -42,4 +42,10 @@ public class App extends BasePage {
         findElement(By.cssSelector(".ww_icon_AppGroupMessageBig")).click();
         return new BroadcastPage();
     }
+    public MaterialLibrary toManageMaterial() {
+        findElement(By.linkText("管理工具")).click();
+        //todo 到这了
+//        findElement(By.cssSelector(".manageTools_cnt_itemLink")).click();
+        return new MaterialLibrary();
+    }
 }
