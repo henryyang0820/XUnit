@@ -96,10 +96,8 @@ public class ContactPage extends BasePage{
         findElement(By.linkText("田猫科技")).click();
         findElement(By.xpath("//li/a/span")).click();
         findElement(By.xpath("(//a[contains(text(),'设置上级')])[2]")).click();
-//        findElement(By.cssSelector(".jstree-wholerow-hovered")).click();
         findElement(By.linkText("杨晓龙")).click();
 
-//        findElement(By.className("qui_btn ww_btn ww_btn_Blue js_submit")).click();
         findElement((By.xpath("//a[contains(.,'确认')]"))).click();
         return this;
     }

@@ -15,8 +15,9 @@ public class TestMaterial {
     }
 
     @Test
-    public void addPhotoAndWord(){
-        app.toManageMaterial().addPandW();
+    public void addPhotoAndWord() throws InterruptedException {
+        String title = "标题"+System.currentTimeMillis();
+        app.toManageMaterial().addPandW(title);
 
     }
 
