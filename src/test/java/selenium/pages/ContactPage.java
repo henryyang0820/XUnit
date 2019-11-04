@@ -74,4 +74,42 @@ public class ContactPage extends BasePage{
         //todo:
         return new HashMap<>();
     }
+
+    public ContactPage addDept(String name){
+        findElement(By.cssSelector(".jstree-contextmenu-hover")).click();
+        findElement(By.cssSelector(".vakata-context-hover > a")).click();
+        findElement(By.xpath("//input[@name='name']")).sendKeys(name);
+        findElement(By.linkText("确定")).click();
+        return this;
+    }
+
+    public ContactPage delDept(){
+        //先点下外面大的,再点竖的三个点
+        findElement((By.xpath("//li/ul/li[2]/a"))).click();
+        findElement((By.xpath("//li[2]/a/span"))).click();
+        findElement(By.xpath("(//a[contains(text(),'删除')])[3]")).click();
+        findElement(By.linkText("确定")).click();
+        return this;
+    }
+
+    public ContactPage promotePerson(){
+        findElement(By.linkText("田猫科技")).click();
+        findElement(By.xpath("//li/a/span")).click();
+        findElement(By.xpath("(//a[contains(text(),'设置上级')])[2]")).click();
+//        findElement(By.cssSelector(".jstree-wholerow-hovered")).click();
+        findElement(By.linkText("杨晓龙")).click();
+
+//        findElement(By.className("qui_btn ww_btn ww_btn_Blue js_submit")).click();
+        findElement((By.xpath("//a[contains(.,'确认')]"))).click();
+        return this;
+    }
+
+    public ContactPage updateDept(String name ){
+        findElement(By.linkText("田猫科技")).click();
+        findElement(By.cssSelector(".jstree-contextmenu-hover")).click();
+        findElement(By.xpath("(//a[contains(text(),'修改名称')])[2]")).click();
+        findElement(By.xpath("//input[@name='name']")).sendKeys(name);
+        findElement(By.linkText("保存")).click();
+        return this;
+    }
 }
