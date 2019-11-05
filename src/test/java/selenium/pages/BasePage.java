@@ -1,5 +1,7 @@
 package selenium.pages;
 
+import com.sun.glass.ui.Pixels;
+import com.sun.glass.ui.Robot;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
   public static RemoteWebDriver driver;
-
     public WebElement findElement(By by){
         return findElement(by, 5);
     }
@@ -34,4 +35,5 @@ public class BasePage {
         Thread.sleep(5000);
         driver.quit();
     }
+
 }

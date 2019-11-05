@@ -21,8 +21,8 @@ public class App extends BasePage {
         driver.findElement(By.linkText("企业登录")).click();
 //        System.out.println(driver.manage().getCookies());
 
-        driver.manage().addCookie(new Cookie("wwrtx.refid", "25456003671641778"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "8DFD-5olxbVx4RGaioEu3U5btx3tSs_6DJn5yAEAEO4Wga8grR7sTNLxFeqkt7E1"));
+        driver.manage().addCookie(new Cookie("wwrtx.refid", "42351602663168856"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "8DFD-5olxbVx4RGaioEu3SuZQgzf26xReV9RU-so9aq4GO3Pr5m1TmxnbBZccW4_"));
         driver.navigate().refresh();
         return this;
     }
@@ -46,7 +46,6 @@ public class App extends BasePage {
 
     public MaterialLibrary toManageMaterial() {
         findElement(By.linkText("管理工具")).click();
-        //todo 到这了
 //        findElement(By.cssSelector(".manageTools_cnt_itemLink")).click();
         findElement(By.xpath("//li[5]/a/div/div")).click();
         return new MaterialLibrary();

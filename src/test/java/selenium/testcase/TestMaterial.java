@@ -5,6 +5,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import selenium.pages.App;
 
+import java.awt.*;
+
 public class TestMaterial {
     public static App app;
     @BeforeClass
@@ -15,14 +17,14 @@ public class TestMaterial {
     }
 
     @Test
-    public void addPhotoAndWord() throws InterruptedException {
+    public void addPhotoAndWord() throws InterruptedException, AWTException {
         String title = "标题"+System.currentTimeMillis();
         app.toManageMaterial().addPandW(title);
 
     }
 
-    @AfterClass
-    public static void afterAll() throws InterruptedException {
-        app.quit();
-    }
+//    @AfterClass
+//    public static void afterAll() throws InterruptedException {
+//        app.quit();
+//    }
 }
