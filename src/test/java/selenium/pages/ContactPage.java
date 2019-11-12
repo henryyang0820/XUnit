@@ -70,10 +70,10 @@ public class ContactPage extends BasePage{
 
     }
 
-    public HashMap<String, String> getUserInfo(String keyword){
-        //todo:
-        return new HashMap<>();
-    }
+//    public HashMap<String, String> getUserInfo(String keyword){
+//        //todo:
+//        return new HashMap<>();
+//    }
 
     public ContactPage addDept(String name){
         findElement(By.cssSelector(".jstree-contextmenu-hover")).click();

@@ -32,7 +32,7 @@ public class TestDept {
 
     @Test
     public void updateName(){
-        String name="天猫科技"+System.currentTimeMillis();
+        String name="田猫科技"+System.currentTimeMillis();
         app.toContact().updateDept(name);
     }
 
