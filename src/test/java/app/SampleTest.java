@@ -21,7 +21,7 @@ public class SampleTest {
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
-        desiredCapabilities.setCapability("noReset", true);
+        desiredCapabilities.setCapability("noReset", false);
         desiredCapabilities.setCapability("deviceName", "android");
 
         URL remoteUrl = new URL("http://127.0.0.1:4723/wd/hub");
