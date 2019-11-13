@@ -12,11 +12,11 @@ import java.util.concurrent.TimeUnit;
  * Created by Prowess on 2019/11/12.
  */
 public class App extends BasePage{
-   public static void start() throws MalformedURLException {
+   public static LoginPage start() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "android");
-        desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
-        desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
+        desiredCapabilities.setCapability("appPackage", "com.bravolinks.erp_client");
+        desiredCapabilities.setCapability("appActivity", "com.bravolinks.erp.supplier.ui.splash.SplashActivity");
         desiredCapabilities.setCapability("noReset", false);
         desiredCapabilities.setCapability("autoGrantPermissions", true);
         desiredCapabilities.setCapability("deviceName", "android");
@@ -32,10 +32,8 @@ public class App extends BasePage{
 //        if(ads.size()>=1){
 //            ads.get(0).click();
 //        }
+        click(By.id("com.bravolinks.erp_client:id/bt_enter"));
+        return new LoginPage();
     }
 
-    public static SearchPage toSearchPage() {
-        findElementAndClick(By.id("com.xueqiu.android:id/home_search"));
-        return new SearchPage();
-    }
 }
