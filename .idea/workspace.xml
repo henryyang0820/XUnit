@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5797e555-6c3a-485a-8459-edd45fae5df9" name="Default Changelist" comment="mission1 completed-">
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/TestWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/Work.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/api/MemberTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5797e555-6c3a-485a-8459-edd45fae5df9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/testcases/TestWeTag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/app/testcases/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/testcases/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mock/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/Division2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mock/Division2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/TestXueQiuLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/TestXueQiuLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/XueQiu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/XueQiu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/search/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/search/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/search/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiuqiu/web/search/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mock/DivisionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mock/MockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mock/MockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/FastGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/FastGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/SlowGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/SlowGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestGroups.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestGroupsSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestGroupsSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestJUnit4Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestJUnit4Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestJUnit4DemoChirldren.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestJUnit4DemoChirldren.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestJUnit4DemoChirldren2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestJUnit4DemoChirldren2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unit/TestSuite.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +42,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -92,19 +74,7 @@
       <recent name="app.page" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestWeTag">
     <configuration name="MemberTag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="service.api.MemberTag" />
       <module name="XUnit" />
@@ -114,6 +84,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service.testcases" />
+      <option name="MAIN_CLASS_NAME" value="service.testcases.TestWeTag" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeTag.createTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service.testcases" />
+      <option name="MAIN_CLASS_NAME" value="service.testcases.TestWeTag" />
+      <option name="METHOD_NAME" value="createTag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeTag.getTagList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service.testcases" />
+      <option name="MAIN_CLASS_NAME" value="service.testcases.TestWeTag" />
+      <option name="METHOD_NAME" value="getTagList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,63 +150,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWork.createDepart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TestWork" />
-      <option name="METHOD_NAME" value="createDepart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWork.getDepart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TestWork" />
-      <option name="METHOD_NAME" value="getDepart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWork.getToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TestWork" />
-      <option name="METHOD_NAME" value="getToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestWeTag" />
+        <item itemvalue="JUnit.TestWeTag.getTagList" />
+        <item itemvalue="JUnit.TestWeTag.createTag" />
         <item itemvalue="Application.MemberTag" />
         <item itemvalue="JUnit.TestWork" />
-        <item itemvalue="JUnit.TestWork.createDepart" />
-        <item itemvalue="JUnit.TestWork.getDepart" />
-        <item itemvalue="JUnit.TestWork.getToken" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -244,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573640225228</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="service Class created">
+      <created>1577960673151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577960673151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +255,29 @@
     <MESSAGE value="''" />
     <MESSAGE value="ignore" />
     <MESSAGE value="bly login" />
-    <option name="LAST_COMMIT_MESSAGE" value="bly login" />
+    <MESSAGE value="service Class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="service Class created" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="244" key="GridCell.Tab.0.bottom" timestamp="1578020440489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="244" key="GridCell.Tab.0.bottom/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1578020440489" />
+    <state width="1876" height="244" key="GridCell.Tab.0.center" timestamp="1578020440489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="244" key="GridCell.Tab.0.center/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1578020440489" />
+    <state width="1876" height="244" key="GridCell.Tab.0.left" timestamp="1578020440489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="244" key="GridCell.Tab.0.left/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1578020440489" />
+    <state width="1876" height="244" key="GridCell.Tab.0.right" timestamp="1578020440489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="244" key="GridCell.Tab.0.right/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1578020440489" />
+    <state x="616" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1578017235078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="162" width="670" height="676" key="search.everywhere.popup/1920.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1578017235078" />
   </component>
 </project>
